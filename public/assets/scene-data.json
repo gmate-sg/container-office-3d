@@ -1,0 +1,3234 @@
+{
+  "version": 2,
+  "source": "双层集装箱办公楼_正式实景渲染版.blend",
+  "sourceUnchanged": true,
+  "units": "metres",
+  "upAxis": "Y",
+  "frontAxis": "+Z",
+  "model": "space.glb",
+  "environment": "environment.hdr",
+  "environmentRotationY": 1.1868238913561442,
+  "storeyHeight": 2.896,
+  "moduleWidth": 2.438,
+  "moduleLength": 12.192,
+  "buildingDepth": 14.63,
+  "cameras": {
+    "exterior": {
+      "position": [
+        -21.5,
+        1.8,
+        27
+      ],
+      "target": [
+        -0.009029,
+        1.799995,
+        0.011333
+      ],
+      "fov": 23.8224,
+      "horizontalFov": 41.1121,
+      "shiftY": 0.07999999821186066,
+      "near": 0.04,
+      "label": "建筑外观"
+    },
+    "office": {
+      "position": [
+        -2.896,
+        4.956,
+        -6.975
+      ],
+      "target": [
+        0.966929,
+        4.956001,
+        -5.936837
+      ],
+      "fov": 47.5199,
+      "horizontalFov": 76.0941,
+      "shiftY": -0.10000000149011612,
+      "near": 0.04,
+      "label": "办公区"
+    },
+    "meeting": {
+      "position": [
+        -4.876,
+        4.956,
+        -2.615
+      ],
+      "target": [
+        -4.876,
+        4.956,
+        3.385
+      ],
+      "fov": 56.1058,
+      "horizontalFov": 86.9037,
+      "shiftY": -0.10000000149011612,
+      "near": 0.04,
+      "label": "会议室"
+    },
+    "overview": {
+      "position": [
+        -19,
+        16,
+        24
+      ],
+      "target": [
+        -0.5,
+        2.8,
+        0
+      ],
+      "fov": 38,
+      "label": "整体鸟瞰",
+      "near": 0.05
+    },
+    "floor2": {
+      "position": [
+        -14,
+        19,
+        17
+      ],
+      "target": [
+        -0.4,
+        3.4,
+        -0.3
+      ],
+      "fov": 42,
+      "label": "二层布局",
+      "near": 0.05
+    },
+    "floor1": {
+      "position": [
+        -14,
+        18,
+        16
+      ],
+      "target": [
+        -0.4,
+        0.8,
+        -0.3
+      ],
+      "fov": 42,
+      "label": "一层布局",
+      "near": 0.05
+    }
+  },
+  "lights": [
+    {
+      "name": "LED-01_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -3.676,
+        2.941,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-02_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -0.936,
+        2.941,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-03_LED实际照明",
+      "type": "AREA",
+      "position": [
+        1.344,
+        2.941,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-04_LED实际照明",
+      "type": "AREA",
+      "position": [
+        4.074,
+        2.941,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-05_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        2.941,
+        -3.175
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-06_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        2.941,
+        -0.935
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-07_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        2.941,
+        1.405
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-08_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        2.941,
+        3.695
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-09_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        2.941,
+        -3.375
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-10_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        2.941,
+        -0.895
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-11_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        2.941,
+        2.235
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-12_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        2.941,
+        4.775
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-25_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -0.716,
+        3.061,
+        -3.415
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 1,
+      "kind": "LED"
+    },
+    {
+      "name": "emergency_luminaire-05_应急照明真实射灯-1",
+      "type": "SPOT",
+      "position": [
+        3.93325,
+        2.654416,
+        -4.999084
+      ],
+      "direction": [
+        0.14656,
+        -0.537385,
+        -0.830505
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 1,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-05_应急照明真实射灯1",
+      "type": "SPOT",
+      "position": [
+        3.71475,
+        2.654416,
+        -4.999084
+      ],
+      "direction": [
+        -0.14656,
+        -0.537385,
+        -0.830505
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 1,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-06_应急照明真实射灯-1",
+      "type": "SPOT",
+      "position": [
+        -3.780085,
+        2.654416,
+        -2.51425
+      ],
+      "direction": [
+        -0.830505,
+        -0.537385,
+        -0.14656
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 1,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-06_应急照明真实射灯1",
+      "type": "SPOT",
+      "position": [
+        -3.780085,
+        2.654416,
+        -2.29575
+      ],
+      "direction": [
+        -0.830504,
+        -0.537385,
+        0.14656
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 1,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-07_应急照明真实射灯-1",
+      "type": "SPOT",
+      "position": [
+        3.780085,
+        2.654416,
+        -2.31575
+      ],
+      "direction": [
+        0.830504,
+        -0.537385,
+        0.14656
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 1,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-07_应急照明真实射灯1",
+      "type": "SPOT",
+      "position": [
+        3.780085,
+        2.654416,
+        -2.53425
+      ],
+      "direction": [
+        0.830505,
+        -0.537385,
+        -0.14656
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 1,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "INST_EXIT_F1_elect_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        3.074,
+        2.745,
+        -4.9665
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 1,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_EXIT_F1_archive_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        -3.7475,
+        2.745,
+        -3.155
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 1,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_EXIT_F1_locker_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        3.7475,
+        2.745,
+        -3.175
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 1,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_BEACON_1F_报警灯实际溢光",
+      "type": "POINT",
+      "position": [
+        4.754,
+        2.57,
+        -5.0125
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "power": 0.25,
+      "color": [
+        1,
+        0.012000000104308128,
+        0.004999999888241291
+      ],
+      "size": 0.2,
+      "floor": 1,
+      "kind": "sounder_beacon"
+    },
+    {
+      "name": "INST_OUTDOOR_01_防水灯实际照明",
+      "type": "AREA",
+      "position": [
+        -0.196,
+        3.012,
+        -4.115
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 16,
+      "color": [
+        1,
+        0.9200000166893005,
+        0.7599999904632568
+      ],
+      "size": 0.2199999988079071,
+      "floor": 1,
+      "kind": "outdoor_luminaire"
+    },
+    {
+      "name": "LED-13_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -3.676,
+        5.837,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-14_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -0.936,
+        5.837,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-15_LED实际照明",
+      "type": "AREA",
+      "position": [
+        1.344,
+        5.837,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-16_LED实际照明",
+      "type": "AREA",
+      "position": [
+        4.074,
+        5.837,
+        -6.365
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-17_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        5.837,
+        -0.905
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-18_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        5.837,
+        1.405
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-19_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        5.837,
+        3.695
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-20_LED实际照明",
+      "type": "AREA",
+      "position": [
+        -5.196,
+        5.837,
+        5.905
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-21_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        5.837,
+        -3.375
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-22_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        5.837,
+        -0.895
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-23_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        5.837,
+        2.235
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "LED-24_LED实际照明",
+      "type": "AREA",
+      "position": [
+        5.154,
+        5.837,
+        5.355
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "power": 24,
+      "color": [
+        1,
+        0.9549999833106995,
+        0.8500000238418579
+      ],
+      "size": 0.8600000143051147,
+      "floor": 2,
+      "kind": "LED"
+    },
+    {
+      "name": "emergency_luminaire-01_应急照明真实射灯-1",
+      "type": "SPOT",
+      "position": [
+        0.92325,
+        5.550416,
+        -4.999084
+      ],
+      "direction": [
+        0.14656,
+        -0.537385,
+        -0.830505
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-01_应急照明真实射灯1",
+      "type": "SPOT",
+      "position": [
+        0.70475,
+        5.550416,
+        -4.999084
+      ],
+      "direction": [
+        -0.14656,
+        -0.537385,
+        -0.830505
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-02_应急照明真实射灯-1",
+      "type": "SPOT",
+      "position": [
+        3.93325,
+        5.550416,
+        -4.999084
+      ],
+      "direction": [
+        0.14656,
+        -0.537385,
+        -0.830505
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-02_应急照明真实射灯1",
+      "type": "SPOT",
+      "position": [
+        3.71475,
+        5.550416,
+        -4.999084
+      ],
+      "direction": [
+        -0.14656,
+        -0.537385,
+        -0.830505
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-03_应急照明真实射灯-1",
+      "type": "SPOT",
+      "position": [
+        3.780085,
+        5.550416,
+        -2.31575
+      ],
+      "direction": [
+        0.830504,
+        -0.537385,
+        0.14656
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-03_应急照明真实射灯1",
+      "type": "SPOT",
+      "position": [
+        3.780085,
+        5.550416,
+        -2.53425
+      ],
+      "direction": [
+        0.830505,
+        -0.537385,
+        -0.14656
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-04_应急照明真实射灯-1",
+      "type": "SPOT",
+      "position": [
+        4.97475,
+        5.550416,
+        3.757085
+      ],
+      "direction": [
+        -0.14656,
+        -0.537385,
+        0.830504
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "emergency_luminaire-04_应急照明真实射灯1",
+      "type": "SPOT",
+      "position": [
+        5.19325,
+        5.550416,
+        3.757085
+      ],
+      "direction": [
+        0.14656,
+        -0.537385,
+        0.830504
+      ],
+      "power": 5,
+      "color": [
+        1,
+        0.9599999785423279,
+        0.8799999952316284
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "emergency_luminaire"
+    },
+    {
+      "name": "INST_EXIT_F2_office_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        1.564,
+        5.641,
+        -4.9665
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 2,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_EXIT_F2_printer_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        3.074,
+        5.641,
+        -4.9665
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 2,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_EXIT_F2_meeting_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        -4.886,
+        5.641,
+        -3.1755
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 2,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_EXIT_F2_trainer_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        3.7475,
+        5.641,
+        -3.175
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 2,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_EXIT_F2_supervisor_指示灯实际绿色溢光",
+      "type": "AREA",
+      "position": [
+        4.334,
+        5.641,
+        3.7245
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "power": 0.45,
+      "color": [
+        0.05999999865889549,
+        1,
+        0.10000000149011612
+      ],
+      "size": 0.30000001192092896,
+      "floor": 2,
+      "kind": "emergency_exit"
+    },
+    {
+      "name": "INST_BEACON_2F_报警灯实际溢光",
+      "type": "POINT",
+      "position": [
+        0.054,
+        5.466,
+        -5.0125
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "power": 0.25,
+      "color": [
+        1,
+        0.012000000104308128,
+        0.004999999888241291
+      ],
+      "size": 0.2,
+      "floor": 2,
+      "kind": "sounder_beacon"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "F1_elect",
+      "type": "door",
+      "label": "ELECT STORAGE",
+      "name": "1F_后部内院墙_door_F1_elect_45mm门扇",
+      "names": [
+        "1F_后部内院墙_door_F1_elect_45mm门扇"
+      ],
+      "childNames": [
+        "1F_后部内院墙_door_F1_elect_双面执手及三铰链"
+      ],
+      "pivot": [
+        3.484,
+        0.418,
+        -4.912
+      ],
+      "axis": "Y",
+      "angle": 1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          2.668,
+          0.418,
+          -4.9115
+        ],
+        "max": [
+          3.48,
+          2.551,
+          -4.8665
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "F1_archive",
+      "type": "door",
+      "label": "ARCHIVE STORAGE",
+      "name": "1F_左翼内院墙_door_F1_archive_45mm门扇",
+      "names": [
+        "1F_左翼内院墙_door_F1_archive_45mm门扇"
+      ],
+      "childNames": [
+        "1F_左翼内院墙_door_F1_archive_双面执手及三铰链"
+      ],
+      "pivot": [
+        -3.693,
+        0.418,
+        -3.565
+      ],
+      "axis": "Y",
+      "angle": 1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          -3.6925,
+          0.418,
+          -3.561
+        ],
+        "max": [
+          -3.6475,
+          2.551,
+          -2.749
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "F1_locker",
+      "type": "door",
+      "label": "LOCKER ROOM",
+      "name": "1F_右翼内院墙_door_F1_locker_45mm门扇",
+      "names": [
+        "1F_右翼内院墙_door_F1_locker_45mm门扇"
+      ],
+      "childNames": [
+        "1F_右翼内院墙_door_F1_locker_双面执手及三铰链"
+      ],
+      "pivot": [
+        3.693,
+        0.418,
+        -2.765
+      ],
+      "axis": "Y",
+      "angle": 1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          3.6475,
+          0.418,
+          -3.581
+        ],
+        "max": [
+          3.6925,
+          2.551,
+          -2.769
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-01",
+      "type": "cabinet",
+      "label": "更衣柜01下层",
+      "name": "网页_更衣柜_01_下柜门",
+      "names": [
+        "网页_更衣柜_01_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_01_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -4.48
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -4.48
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -3.99
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-02",
+      "type": "cabinet",
+      "label": "更衣柜01上层",
+      "name": "网页_更衣柜_01_上柜门",
+      "names": [
+        "网页_更衣柜_01_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_01_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -4.48
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -4.48
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -3.99
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-03",
+      "type": "cabinet",
+      "label": "更衣柜02下层",
+      "name": "网页_更衣柜_02_下柜门",
+      "names": [
+        "网页_更衣柜_02_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_02_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -3.92
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -3.92
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -3.43
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-04",
+      "type": "cabinet",
+      "label": "更衣柜02上层",
+      "name": "网页_更衣柜_02_上柜门",
+      "names": [
+        "网页_更衣柜_02_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_02_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -3.92
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -3.92
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -3.43
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-05",
+      "type": "cabinet",
+      "label": "更衣柜03下层",
+      "name": "网页_更衣柜_03_下柜门",
+      "names": [
+        "网页_更衣柜_03_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_03_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -3.36
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -3.36
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -2.87
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-06",
+      "type": "cabinet",
+      "label": "更衣柜03上层",
+      "name": "网页_更衣柜_03_上柜门",
+      "names": [
+        "网页_更衣柜_03_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_03_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -3.36
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -3.36
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -2.87
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-07",
+      "type": "cabinet",
+      "label": "更衣柜04下层",
+      "name": "网页_更衣柜_04_下柜门",
+      "names": [
+        "网页_更衣柜_04_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_04_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -2.8
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -2.8
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -2.31
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-08",
+      "type": "cabinet",
+      "label": "更衣柜04上层",
+      "name": "网页_更衣柜_04_上柜门",
+      "names": [
+        "网页_更衣柜_04_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_04_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -2.8
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -2.8
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -2.31
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-09",
+      "type": "cabinet",
+      "label": "更衣柜05下层",
+      "name": "网页_更衣柜_05_下柜门",
+      "names": [
+        "网页_更衣柜_05_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_05_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -2.24
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -2.24
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -1.75
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-10",
+      "type": "cabinet",
+      "label": "更衣柜05上层",
+      "name": "网页_更衣柜_05_上柜门",
+      "names": [
+        "网页_更衣柜_05_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_05_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -2.24
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -2.24
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -1.75
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-11",
+      "type": "cabinet",
+      "label": "更衣柜06下层",
+      "name": "网页_更衣柜_06_下柜门",
+      "names": [
+        "网页_更衣柜_06_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_06_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -1.68
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -1.68
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -1.19
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-12",
+      "type": "cabinet",
+      "label": "更衣柜06上层",
+      "name": "网页_更衣柜_06_上柜门",
+      "names": [
+        "网页_更衣柜_06_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_06_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -1.68
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -1.68
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -1.19
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-13",
+      "type": "cabinet",
+      "label": "更衣柜07下层",
+      "name": "网页_更衣柜_07_下柜门",
+      "names": [
+        "网页_更衣柜_07_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_07_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -1.12
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -1.12
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -0.63
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-14",
+      "type": "cabinet",
+      "label": "更衣柜07上层",
+      "name": "网页_更衣柜_07_上柜门",
+      "names": [
+        "网页_更衣柜_07_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_07_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -1.12
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -1.12
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -0.63
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-15",
+      "type": "cabinet",
+      "label": "更衣柜08下层",
+      "name": "网页_更衣柜_08_下柜门",
+      "names": [
+        "网页_更衣柜_08_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_08_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        -0.56
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          -0.56
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          -0.07
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-16",
+      "type": "cabinet",
+      "label": "更衣柜08上层",
+      "name": "网页_更衣柜_08_上柜门",
+      "names": [
+        "网页_更衣柜_08_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_08_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        -0.56
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          -0.56
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          -0.07
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-17",
+      "type": "cabinet",
+      "label": "更衣柜09下层",
+      "name": "网页_更衣柜_09_下柜门",
+      "names": [
+        "网页_更衣柜_09_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_09_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        0
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          0
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          0.49
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-18",
+      "type": "cabinet",
+      "label": "更衣柜09上层",
+      "name": "网页_更衣柜_09_上柜门",
+      "names": [
+        "网页_更衣柜_09_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_09_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        0
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          0
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          0.49
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-19",
+      "type": "cabinet",
+      "label": "更衣柜10下层",
+      "name": "网页_更衣柜_10_下柜门",
+      "names": [
+        "网页_更衣柜_10_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_10_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        0.56
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          0.56
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          1.05
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-20",
+      "type": "cabinet",
+      "label": "更衣柜10上层",
+      "name": "网页_更衣柜_10_上柜门",
+      "names": [
+        "网页_更衣柜_10_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_10_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        0.56
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          0.56
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          1.05
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-21",
+      "type": "cabinet",
+      "label": "更衣柜11下层",
+      "name": "网页_更衣柜_11_下柜门",
+      "names": [
+        "网页_更衣柜_11_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_11_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        1.12
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          1.12
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          1.61
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-22",
+      "type": "cabinet",
+      "label": "更衣柜11上层",
+      "name": "网页_更衣柜_11_上柜门",
+      "names": [
+        "网页_更衣柜_11_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_11_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        1.12
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          1.12
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          1.61
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-23",
+      "type": "cabinet",
+      "label": "更衣柜12下层",
+      "name": "网页_更衣柜_12_下柜门",
+      "names": [
+        "网页_更衣柜_12_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_12_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        1.68
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          1.68
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          2.17
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-24",
+      "type": "cabinet",
+      "label": "更衣柜12上层",
+      "name": "网页_更衣柜_12_上柜门",
+      "names": [
+        "网页_更衣柜_12_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_12_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        1.68
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          1.68
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          2.17
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-25",
+      "type": "cabinet",
+      "label": "更衣柜13下层",
+      "name": "网页_更衣柜_13_下柜门",
+      "names": [
+        "网页_更衣柜_13_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_13_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        2.24
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          2.24
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          2.73
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-26",
+      "type": "cabinet",
+      "label": "更衣柜13上层",
+      "name": "网页_更衣柜_13_上柜门",
+      "names": [
+        "网页_更衣柜_13_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_13_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        2.24
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          2.24
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          2.73
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-27",
+      "type": "cabinet",
+      "label": "更衣柜14下层",
+      "name": "网页_更衣柜_14_下柜门",
+      "names": [
+        "网页_更衣柜_14_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_14_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        2.8
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          2.8
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          3.29
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-28",
+      "type": "cabinet",
+      "label": "更衣柜14上层",
+      "name": "网页_更衣柜_14_上柜门",
+      "names": [
+        "网页_更衣柜_14_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_14_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        2.8
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          2.8
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          3.29
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-29",
+      "type": "cabinet",
+      "label": "更衣柜15下层",
+      "name": "网页_更衣柜_15_下柜门",
+      "names": [
+        "网页_更衣柜_15_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_15_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        3.36
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          3.36
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          3.85
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-30",
+      "type": "cabinet",
+      "label": "更衣柜15上层",
+      "name": "网页_更衣柜_15_上柜门",
+      "names": [
+        "网页_更衣柜_15_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_15_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        3.36
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          3.36
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          3.85
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-31",
+      "type": "cabinet",
+      "label": "更衣柜16下层",
+      "name": "网页_更衣柜_16_下柜门",
+      "names": [
+        "网页_更衣柜_16_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_16_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        3.92
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          3.92
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          4.41
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-32",
+      "type": "cabinet",
+      "label": "更衣柜16上层",
+      "name": "网页_更衣柜_16_上柜门",
+      "names": [
+        "网页_更衣柜_16_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_16_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        3.92
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          3.92
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          4.41
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-33",
+      "type": "cabinet",
+      "label": "更衣柜17下层",
+      "name": "网页_更衣柜_17_下柜门",
+      "names": [
+        "网页_更衣柜_17_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_17_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        4.48
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          4.48
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          4.97
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-34",
+      "type": "cabinet",
+      "label": "更衣柜17上层",
+      "name": "网页_更衣柜_17_上柜门",
+      "names": [
+        "网页_更衣柜_17_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_17_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        4.48
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          4.48
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          4.97
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-35",
+      "type": "cabinet",
+      "label": "更衣柜18下层",
+      "name": "网页_更衣柜_18_下柜门",
+      "names": [
+        "网页_更衣柜_18_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_18_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        5.04
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          5.04
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          5.53
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-36",
+      "type": "cabinet",
+      "label": "更衣柜18上层",
+      "name": "网页_更衣柜_18_上柜门",
+      "names": [
+        "网页_更衣柜_18_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_18_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        5.04
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          5.04
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          5.53
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-37",
+      "type": "cabinet",
+      "label": "更衣柜19下层",
+      "name": "网页_更衣柜_19_下柜门",
+      "names": [
+        "网页_更衣柜_19_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_19_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        5.6
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          5.6
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          6.09
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-38",
+      "type": "cabinet",
+      "label": "更衣柜19上层",
+      "name": "网页_更衣柜_19_上柜门",
+      "names": [
+        "网页_更衣柜_19_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_19_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        5.6
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          5.6
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          6.09
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-39",
+      "type": "cabinet",
+      "label": "更衣柜20下层",
+      "name": "网页_更衣柜_20_下柜门",
+      "names": [
+        "网页_更衣柜_20_下柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_20_0_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        0.425,
+        6.16
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          0.425,
+          6.16
+        ],
+        "max": [
+          5.4115,
+          1.395,
+          6.65
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-40",
+      "type": "cabinet",
+      "label": "更衣柜20上层",
+      "name": "网页_更衣柜_20_上柜门",
+      "names": [
+        "网页_更衣柜_20_上柜门"
+      ],
+      "childNames": [
+        "网页_更衣柜_20_1_拉手与透气槽"
+      ],
+      "pivot": [
+        5.399,
+        1.445,
+        6.16
+      ],
+      "axis": "Y",
+      "angle": -1.72,
+      "closedBounds": {
+        "min": [
+          5.3865,
+          1.445,
+          6.16
+        ],
+        "max": [
+          5.4115,
+          2.415,
+          6.65
+        ]
+      },
+      "floor": 1,
+      "enabled": true
+    },
+    {
+      "id": "F2_office",
+      "type": "door",
+      "label": "Planner & Clerk office",
+      "name": "2F_后部内院墙_door_F2_office_45mm门扇",
+      "names": [
+        "2F_后部内院墙_door_F2_office_45mm门扇"
+      ],
+      "childNames": [
+        "2F_后部内院墙_door_F2_office_双面执手及三铰链"
+      ],
+      "pivot": [
+        1.974,
+        3.314,
+        -4.912
+      ],
+      "axis": "Y",
+      "angle": 1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          1.158,
+          3.314,
+          -4.9115
+        ],
+        "max": [
+          1.97,
+          5.447,
+          -4.8665
+        ]
+      },
+      "floor": 2,
+      "enabled": true
+    },
+    {
+      "id": "F2_printer",
+      "type": "door",
+      "label": "Printer Room",
+      "name": "2F_后部内院墙_door_F2_printer_45mm门扇",
+      "names": [
+        "2F_后部内院墙_door_F2_printer_45mm门扇"
+      ],
+      "childNames": [
+        "2F_后部内院墙_door_F2_printer_双面执手及三铰链"
+      ],
+      "pivot": [
+        3.484,
+        3.314,
+        -4.912
+      ],
+      "axis": "Y",
+      "angle": 1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          2.668,
+          3.314,
+          -4.9115
+        ],
+        "max": [
+          3.48,
+          5.447,
+          -4.8665
+        ]
+      },
+      "floor": 2,
+      "enabled": true
+    },
+    {
+      "id": "F2_meeting",
+      "type": "door",
+      "label": "Meeting Room",
+      "name": "2F_左翼后端墙_door_F2_meeting_45mm门扇",
+      "names": [
+        "2F_左翼后端墙_door_F2_meeting_45mm门扇"
+      ],
+      "childNames": [
+        "2F_左翼后端墙_door_F2_meeting_双面执手及三铰链"
+      ],
+      "pivot": [
+        -4.476,
+        3.314,
+        -3.23
+      ],
+      "axis": "Y",
+      "angle": -1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          -5.292,
+          3.314,
+          -3.2755
+        ],
+        "max": [
+          -4.48,
+          5.447,
+          -3.2305
+        ]
+      },
+      "floor": 2,
+      "enabled": true
+    },
+    {
+      "id": "F2_trainer",
+      "type": "door",
+      "label": "Trainer office",
+      "name": "2F_右翼内院墙_door_F2_trainer_45mm门扇",
+      "names": [
+        "2F_右翼内院墙_door_F2_trainer_45mm门扇"
+      ],
+      "childNames": [
+        "2F_右翼内院墙_door_F2_trainer_双面执手及三铰链"
+      ],
+      "pivot": [
+        3.693,
+        3.314,
+        -2.765
+      ],
+      "axis": "Y",
+      "angle": 1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          3.6475,
+          3.314,
+          -3.581
+        ],
+        "max": [
+          3.6925,
+          5.447,
+          -2.769
+        ]
+      },
+      "floor": 2,
+      "enabled": true
+    },
+    {
+      "id": "F2_supervisor",
+      "type": "door",
+      "label": "Supervisor office",
+      "name": "2F_主管办公室隔墙_door_F2_supervisor_45mm门扇",
+      "names": [
+        "2F_主管办公室隔墙_door_F2_supervisor_45mm门扇"
+      ],
+      "childNames": [
+        "2F_主管办公室隔墙_door_F2_supervisor_双面执手及三"
+      ],
+      "pivot": [
+        3.964,
+        3.314,
+        3.67
+      ],
+      "axis": "Y",
+      "angle": -1.5707963267948966,
+      "closedBounds": {
+        "min": [
+          3.968,
+          3.314,
+          3.6245
+        ],
+        "max": [
+          4.7,
+          5.447,
+          3.6695
+        ]
+      },
+      "floor": 2,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-41",
+      "type": "cabinet",
+      "label": "打印室资料柜左门",
+      "name": "网页_打印室_资料柜_左门",
+      "names": [
+        "网页_打印室_资料柜_左门"
+      ],
+      "childNames": [
+        "网页_打印室_资料柜_0_把手"
+      ],
+      "pivot": [
+        4.539,
+        3.336,
+        -6.574
+      ],
+      "axis": "Y",
+      "angle": -1.65,
+      "closedBounds": {
+        "min": [
+          4.539,
+          3.336,
+          -6.583
+        ],
+        "max": [
+          5.189,
+          4.776,
+          -6.565
+        ]
+      },
+      "floor": 2,
+      "enabled": true
+    },
+    {
+      "id": "cabinet-42",
+      "type": "cabinet",
+      "label": "打印室资料柜右门",
+      "name": "网页_打印室_资料柜_右门",
+      "names": [
+        "网页_打印室_资料柜_右门"
+      ],
+      "childNames": [
+        "网页_打印室_资料柜_1_把手"
+      ],
+      "pivot": [
+        5.869,
+        3.336,
+        -6.574
+      ],
+      "axis": "Y",
+      "angle": 1.65,
+      "closedBounds": {
+        "min": [
+          5.219,
+          3.336,
+          -6.583
+        ],
+        "max": [
+          5.869,
+          4.776,
+          -6.565
+        ]
+      },
+      "floor": 2,
+      "enabled": true
+    }
+  ],
+  "walking": {
+    "eyeHeight": 1.65,
+    "capsuleRadius": 0.24,
+    "stepHeight": 0.22,
+    "floorElevations": {
+      "ground": 0,
+      "floor1": 0.41,
+      "floor2": 3.306,
+      "platform": 3.267,
+      "stairLanding": 3.246
+    },
+    "spawns": {
+      "courtyard": {
+        "feet": [
+          0,
+          0.015,
+          3.5
+        ],
+        "target": [
+          0,
+          1.65,
+          -3
+        ],
+        "label": "中央庭院"
+      },
+      "office": {
+        "feet": [
+          -2.896,
+          3.306,
+          -6.975
+        ],
+        "target": [
+          0.966929,
+          4.956001,
+          -5.936837
+        ],
+        "label": "办公区"
+      },
+      "meeting": {
+        "feet": [
+          -4.876,
+          3.306,
+          -2.615
+        ],
+        "target": [
+          -4.876,
+          4.956,
+          3.385
+        ],
+        "label": "会议室"
+      },
+      "storage": {
+        "feet": [
+          0,
+          0.41,
+          -6.1
+        ],
+        "target": [
+          3.3,
+          2.06,
+          -4.9
+        ],
+        "label": "电气储藏"
+      },
+      "archive": {
+        "feet": [
+          -4.8,
+          0.41,
+          -1.2
+        ],
+        "target": [
+          -4.8,
+          2.06,
+          2
+        ],
+        "label": "档案室"
+      },
+      "lockers": {
+        "feet": [
+          4.55,
+          0.41,
+          -2.2
+        ],
+        "target": [
+          5.5,
+          1.7,
+          -2.2
+        ],
+        "label": "更衣室"
+      },
+      "fileCabinet": {
+        "feet": [
+          5.15,
+          3.306,
+          -5.65
+        ],
+        "target": [
+          5.2,
+          4.1,
+          -6.58
+        ],
+        "label": "资料柜"
+      }
+    },
+    "stairs": [
+      {
+        "name": "左侧_真实格栅钢楼梯",
+        "bottom": [
+          -6.896,
+          0.015,
+          5.685
+        ],
+        "top": [
+          -6.896,
+          3.246,
+          1.185
+        ],
+        "steps": 18,
+        "rise": 0.1795,
+        "run": 0.25,
+        "walkableWidth": 1.26,
+        "ascendingDirection": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "name": "右侧_真实格栅钢楼梯",
+        "bottom": [
+          2.858,
+          0.015,
+          7.315
+        ],
+        "top": [
+          2.858,
+          3.246,
+          2.815
+        ],
+        "steps": 18,
+        "rise": 0.1795,
+        "run": 0.25,
+        "walkableWidth": 1.26,
+        "ascendingDirection": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "notes": [
+      "Spawns are feet positions. Front +Z; stairs ascend -Z.",
+      "8roomdoor hinge directions derive corrected native model after Y-handedness fix.",
+      "Door/cabinet hinge node has unit scale; child quantized geometry may follow."
+    ]
+  },
+  "groups": {
+    "floor1": 219,
+    "floor2": 293,
+    "access": 10,
+    "roof": 7,
+    "site": 18
+  },
+  "roles": {
+    "structure": 26,
+    "furniture": 162,
+    "wall": 160,
+    "glass": 27,
+    "door": 8,
+    "doorHardware": 7,
+    "floor": 12,
+    "cabinetDoor": 42,
+    "cabinetHardware": 42,
+    "ground": 6,
+    "landscape": 12,
+    "ceiling": 16,
+    "fixture": 27
+  },
+  "objectCount": 547,
+  "uniqueGeometryCount": 471,
+  "modelBytes": 65071164,
+  "bounds": {
+    "min": [
+      -32.495998,
+      -0.2,
+      -18
+    ],
+    "max": [
+      32.504002,
+      9.424713,
+      40.785
+    ]
+  },
+  "materials": {
+    "palette": "Orange exterior; warmwhite interior; softwhite ceiling; lightgrey floor; wood/dark seating",
+    "textureMaxSize": 1024,
+    "sourceAssetsLicense": "Poly Haven CC0",
+    "sourceAssetsURL": "https://polyhaven.com/license"
+  },
+  "notes": [
+    "Corrected8doors22windows; source .blend was not saved.",
+    "Photographic camera backplates and dimensions excluded from realtime GLB; root provides HTML overlay/gallery.",
+    "50 actual device lights supplied as metadata; emissive LED/EXIT text and vector glyphs are real geometry.",
+    "42 web-only hinged cabinet leaves and hollow shells retain dimensions.",
+    "Source fixture/model positions are visualization assumptions where PDF unlocated."
+  ],
+  "doorSchedule": [
+    {
+      "id": "F1_elect",
+      "level": 1,
+      "room": "ELECT STORAGE",
+      "axis": "X",
+      "pos": 2.438,
+      "inside": -1,
+      "center": 9.17,
+      "a": 8.705,
+      "b": 9.635,
+      "hinge_end": "max",
+      "native_swing_degrees_after_mirror": 90
+    },
+    {
+      "id": "F1_archive",
+      "level": 1,
+      "room": "ARCHIVE STORAGE",
+      "axis": "Y",
+      "pos": 2.438,
+      "inside": -1,
+      "center": 4.16,
+      "a": 3.6950000000000003,
+      "b": 4.625,
+      "hinge_end": "min",
+      "native_swing_degrees_after_mirror": 90
+    },
+    {
+      "id": "F1_locker",
+      "level": 1,
+      "room": "LOCKER ROOM",
+      "axis": "Y",
+      "pos": 9.754,
+      "inside": 1,
+      "center": 4.14,
+      "a": 3.675,
+      "b": 4.6049999999999995,
+      "hinge_end": "max",
+      "native_swing_degrees_after_mirror": 90
+    },
+    {
+      "id": "F2_office",
+      "level": 2,
+      "room": "Planner & Clerk office",
+      "axis": "X",
+      "pos": 2.438,
+      "inside": -1,
+      "center": 7.66,
+      "a": 7.195,
+      "b": 8.125,
+      "hinge_end": "max",
+      "native_swing_degrees_after_mirror": 90
+    },
+    {
+      "id": "F2_printer",
+      "level": 2,
+      "room": "Printer Room",
+      "axis": "X",
+      "pos": 2.438,
+      "inside": -1,
+      "center": 9.17,
+      "a": 8.705,
+      "b": 9.635,
+      "hinge_end": "max",
+      "native_swing_degrees_after_mirror": 90
+    },
+    {
+      "id": "F2_meeting",
+      "level": 2,
+      "room": "Meeting Room",
+      "axis": "X",
+      "pos": 4.05,
+      "inside": 1,
+      "center": 1.21,
+      "a": 0.7449999999999999,
+      "b": 1.675,
+      "hinge_end": "max",
+      "native_swing_degrees_after_mirror": -90
+    },
+    {
+      "id": "F2_trainer",
+      "level": 2,
+      "room": "Trainer office",
+      "axis": "Y",
+      "pos": 9.754,
+      "inside": 1,
+      "center": 4.14,
+      "a": 3.675,
+      "b": 4.6049999999999995,
+      "hinge_end": "max",
+      "native_swing_degrees_after_mirror": 90
+    },
+    {
+      "id": "F2_supervisor",
+      "level": 2,
+      "room": "Supervisor office",
+      "axis": "X",
+      "pos": 10.95,
+      "inside": 1,
+      "center": 10.43,
+      "a": 10.004999999999999,
+      "b": 10.855,
+      "hinge_end": "min",
+      "native_swing_degrees_after_mirror": -90
+    }
+  ],
+  "optimization": {
+    "geometry": "Meshopt",
+    "textures": "WebP, maximum 1024 px",
+    "bytes": 14571840
+  }
+}

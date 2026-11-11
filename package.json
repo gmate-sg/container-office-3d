@@ -1,0 +1,24 @@
+{
+  "name": "orange-container-showroom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "build:pages": "vite build && node sync-pages.mjs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.3.0",
+    "@gltf-transform/extensions": "4.3.0",
+    "@gltf-transform/functions": "4.3.0",
+    "meshoptimizer": "1.0.1",
+    "playwright": "1.58.2",
+    "sharp": "^0.35.5",
+    "vite": "8.0.3"
+  }
+}

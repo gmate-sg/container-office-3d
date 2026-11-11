@@ -1,0 +1,234 @@
+{
+  "notes": [
+    {
+      "id": "cover-title",
+      "page": 1,
+      "original": "Drawings of Double-storey Container Office Accommodation (1st Version)",
+      "translation": "双层集装箱办公用房图纸（第一版）"
+    },
+    {
+      "id": "P2-N01",
+      "page": 2,
+      "original": "1. Module dimensions: 12192 x 2438 x 2591 mm (Length x Width x Height)",
+      "translation": "1. 模块尺寸：12192 x 2438 x 2591 mm（长 x 宽 x 高）。原说明高度与立面不一致，模型依用户已确认决定采用立面2896 mm层高；保留原文供对照。"
+    },
+    {
+      "id": "P2-N02",
+      "page": 2,
+      "original": "2. Module material: 40-foot standard container unit, fitted with 28 mm container-grade wood flooring, doors and windows. Wall panels adopt 75 mm rock-wool sandwich panels; floor finished with epoxy coating.",
+      "translation": "2. 模块材料：40英尺标准集装箱单元，配置28 mm集装箱专用木地板、门窗；墙体采用75 mm岩棉夹芯板；地面为环氧涂层。"
+    },
+    {
+      "id": "P2-N03",
+      "page": 2,
+      "original": "3. The bottom of internal racks shall be securely fixed to the module structure. Office desks, chairs and other furniture shall be fully preinstalled at factory and anchored to the module base.",
+      "translation": "3. 室内货架底部须牢固固定在模块结构上；办公桌、椅及其他家具在工厂完成预安装，并锚固至模块底座。"
+    },
+    {
+      "id": "P3-N01",
+      "page": 3,
+      "original": "1. On the staircase side of the top canopy, the outer extension edge shall be flush with the staircase.",
+      "translation": "1. 顶部雨棚靠楼梯一侧的外挑边缘应与楼梯外边齐平。"
+    },
+    {
+      "id": "P3-N02",
+      "page": 3,
+      "original": "2. The exact layout position of air-conditioning units shall be shown on dedicated layout drawings after further detailed design at a later stage.",
+      "translation": "2. 空调机组的准确布置位置待后续深化设计后，在专用布置图中表示。"
+    },
+    {
+      "id": "P4-N01",
+      "page": 4,
+      "original": "1. The high-voltage power cables shall be routed through internal cable trunking of the module at a later phase.",
+      "translation": "1. 后续阶段高压电缆通过模块内部电缆线槽敷设。"
+    },
+    {
+      "id": "P4-N02",
+      "page": 4,
+      "original": "2. LED lighting fixtures shall be adopted; their exact layout positions shall be adjusted according to actual on-site requirements in subsequent work.",
+      "translation": "2. 采用LED照明灯具；准确位置在后续工作中根据现场实际要求调整。"
+    },
+    {
+      "id": "P4-legend-remarks",
+      "page": 4,
+      "original": "Quantity and location to be confirmed in later detailed design.",
+      "translation": "灯具、插座、墙壁开关和室外防水灯具的数量与位置待后续深化设计确认。"
+    },
+    {
+      "id": "P5-N01",
+      "page": 5,
+      "original": "1. One fire alarm control panel to be installed.",
+      "translation": "1. 安装一台火灾报警控制器。"
+    },
+    {
+      "id": "P5-N02",
+      "page": 5,
+      "original": "2. Panel location to be confirmed with Client later.",
+      "translation": "2. 控制器位置后续与客户确认。"
+    },
+    {
+      "id": "P5-N03",
+      "page": 5,
+      "original": "3. Self-contained emergency lights, battery backup duration > 90 min.",
+      "translation": "3. 自带电源应急照明灯，电池备用时长大于90分钟。"
+    },
+    {
+      "id": "P5-smoke-callout",
+      "page": 5,
+      "original": "Smoke detector: ceiling mounted.",
+      "translation": "烟感探测器：吸顶安装。"
+    },
+    {
+      "id": "P6-N01",
+      "page": 6,
+      "original": "Earth resistance test points (recessed type), 4 sets in total.",
+      "translation": "接地电阻测试点采用暗装形式，共4组。"
+    },
+    {
+      "id": "P6-N02",
+      "page": 6,
+      "original": "IP65 protection rating, mounting height: 500 mm above 1st floor floor level.",
+      "translation": "防护等级IP65；安装高度距一层完成地面500 mm。"
+    },
+    {
+      "id": "P6-N03",
+      "page": 6,
+      "original": "Main Equipotential Bonding Box. Installed 300 mm above FFL.",
+      "translation": "总等电位联结箱，安装高度距完成地面300 mm。"
+    }
+  ],
+  "legends": [
+    {
+      "page": 4,
+      "table": "Bill of Materials",
+      "number": 1,
+      "type": "LED",
+      "original": "Lighting fixture",
+      "translation": "照明灯具",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "Quantity and location to be confirmed in later detailed design.",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    },
+    {
+      "page": 4,
+      "table": "Bill of Materials",
+      "number": 2,
+      "type": "socket",
+      "original": "Socket outlet",
+      "translation": "插座",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "Quantity and location to be confirmed in later detailed design.",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    },
+    {
+      "page": 4,
+      "table": "Bill of Materials",
+      "number": 3,
+      "type": "switch",
+      "original": "Wall switch",
+      "translation": "墙壁开关",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "Quantity and location to be confirmed in later detailed design.",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    },
+    {
+      "page": 4,
+      "table": "Bill of Materials",
+      "number": 4,
+      "type": "outdoor_luminaire",
+      "original": "Outdoor waterproof luminaire",
+      "translation": "室外防水灯具",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "Quantity and location to be confirmed in later detailed design.",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    },
+    {
+      "page": 5,
+      "table": "Fire Protection Layout Plan / Material Schedule",
+      "number": 1,
+      "type": "smoke_detector",
+      "original": "Smoke Detector",
+      "translation": "烟感探测器",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    },
+    {
+      "page": 5,
+      "table": "Fire Protection Layout Plan / Material Schedule",
+      "number": 2,
+      "type": "sounder_beacon",
+      "original": "Sounder Beacon",
+      "translation": "声光报警器",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    },
+    {
+      "page": 5,
+      "table": "Fire Protection Layout Plan / Material Schedule",
+      "number": 3,
+      "type": "emergency_exit",
+      "original": "Emergency Exit Sign",
+      "translation": "应急出口标志灯",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    },
+    {
+      "page": 5,
+      "table": "Fire Protection Layout Plan / Material Schedule",
+      "number": 4,
+      "type": "emergency_luminaire",
+      "original": "Emergency Luminaire",
+      "translation": "应急照明灯",
+      "unit": "pc",
+      "quantity_field": null,
+      "remarks": "",
+      "model_status": "physical fixture for explicitly drawn positions; physical legend sample or clearly labelled illustrative position for legend-only types"
+    }
+  ],
+  "installedCounts": {
+    "LED": 25,
+    "smoke_detector": 14,
+    "emergency_luminaire": 7,
+    "emergency_exit": 8,
+    "sounder_beacon": 2,
+    "socket": 6,
+    "switch": 8,
+    "outdoor_luminaire": 1
+  },
+  "dimensionNotes": [
+    {
+      "title": "模块尺寸",
+      "text": "模块名义长度 12192 mm、宽度 2438 mm。方案采用两层，每层高度 2896 mm。"
+    },
+    {
+      "title": "整体与庭院",
+      "text": "建筑横向模块宽 12192 mm，纵向总体 14630 mm（2438 + 12192，推算）；两侧模块之间净名义间距 7316 mm（12192 − 2 × 2438，推算）。"
+    },
+    {
+      "title": "材料规格",
+      "text": "原图说明：75 mm 岩棉夹芯墙板、28 mm 集装箱专用木地板及环氧地坪饰面。"
+    },
+    {
+      "title": "原图层高差异",
+      "text": "规格文字列出 2591 mm，立面标注 2896 mm；本方案按立面采用 2896 mm，原文保留在技术说明中供对照。"
+    },
+    {
+      "title": "门窗与设备定位",
+      "text": "门窗位置依据平面图；一层窗在平面与部分立面存在表达差异，本模型按平面恢复。未单独标注的门窗偏移、家具和设备型号尺寸为表现示意。"
+    },
+    {
+      "title": "灯具及消防设备",
+      "text": "图中明确表达 24 盏室内 LED、1 盏庭院灯、14 个烟感及 7 组双头应急灯。EXIT、控制器、开关、插座等按使用关系合理布置，原图未定位状态仍保留在说明中。"
+    }
+  ]
+}
